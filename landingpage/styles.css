@@ -1,17 +1,19 @@
 body{
-    background-color: #1f2937;
+    background-color: #0E0E0E;
     color: #f9faf8;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px 200px;
+    padding: 0px 300px;
+    margin: 0px;
 }
 
 .header {
-    /* border: red solid; */
+    /* border: yellow solid; */
     display: flex;
     justify-content: space-between;
-    padding: 0px 150px;
+    padding: px 150px;
+    background-color: #1f2937;
 
 }
 
@@ -24,32 +26,43 @@ ul {
     display: inline-block;
     list-style: none;
     align-self: right;
+    font-size: 20px;
+    margin: auto;
 }
 
 li {
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.top_section{
+    background-color: #1f2937; 
+    padding: 10px 200px;
+    /* border: red solid; */
 }
 
 .top {
     display: flex;
     justify-content: space-around;
-    padding: 0px 60px 0px 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 0px 0px;
+    margin-top: 170px;
+    margin-bottom: 100px;
+    background-color: #1f2937;
+    /* border: blue solid; */
 }
 
 .topleft {
     flex-basis: 50%;
-    padding: 0px 150px 0px 120px;
+    padding: 0px 150px 0px 0px;
     font-size: 20px;
 }
 
 .topleft h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 .topleft p {
-    margin: 10px 0px;
+    margin: 0px 0px;
+    font-size: 30px;
 
 }
 
@@ -88,12 +101,15 @@ li {
 .picture_array{
     display: flex;
     justify-content: space-around;
+    padding: 0px 500px;
+    gap: 50px;
+    /* border: red solid; */
 }
 
 .picture_frame {
-    border: #3882F6 solid;
-    height: 125px;
-    width: 125px;
+    border: #3882F6 solid 4px;
+    height: 150px;
+    width: 150px;
     display: inline-block;
     border-radius: 10px;
     margin: auto;
@@ -104,26 +120,27 @@ li {
     
     }
     
-    .card_container p {
+ .card_container p {
         width: 125px;
-    }
+}
 
 .quote_container {
     background-color: #E5E7EB;
     color: black;
-    padding: 50px 100px;
+    padding: 50px 300px;
     text-align: left;
 }
 
 .quote {
-    font-size: 25px;
+    font-size: 40px;
     font-style: italic;
+    font-weight: lighter;
 }
 
 .quote_person {
     text-align: right;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .call2action {
